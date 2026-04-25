@@ -1,1 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ISI - Système Intelligent de Suivi des Formateurs</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
 
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+      <span class="logo-text">ISI<em>Dakar</em></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="formations.html">Formations</a></li>
+      <li><a href="formateurs.html">Formateurs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="#" class="btn-nav">
+      <i class="fas fa-sign-in-alt"></i> Accéder à l'application
+    </a>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80" alt="Campus ISI" class="hero-bg"/>
+    <div class="hero-content">
+      <div class="hero-tag">
+        <i class="fas fa-award"></i>
+        Institut Supérieur d'Informatique - Dakar
+      </div>
+      <h1>
+        Système Intelligent<br/>
+        de <span class="highlight">Suivi</span> des<br/>
+        Formateurs
+      </h1>
+      <p>Une plateforme académique avancée pour centraliser, suivre et optimiser l'activité pédagogique de votre centre de formation.</p>
+      <div class="hero-actions">
+        <a href="formations.html" class="btn-primary">
+          <i class="fas fa-book-open"></i> Nos formations
+        </a>
+        <a href="contact.html" class="btn-outline">
+          <i class="fas fa-paper-plane"></i> Nous contacter
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <strong>+50</strong>
+          <span>Formateurs</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <strong>+200</strong>
+          <span>Stagiaires</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <strong>+30</strong>
+          <span>Formations</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <strong>10</strong>
+          <span>Années</span>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- FONCTIONNALITÉS -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label"><i class="fas fa-layer-group"></i> Fonctionnalités</span>
+        <h2>Une solution complète<br/>pour votre centre</h2>
+        <p>Le SISF centralise toute la gestion pédagogique en un seul outil intelligent et intuitif.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" data-delay="0">
+          <div class="feature-icon-wrap">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <h3>Suivi des présences</h3>
+          <p>Enregistrement en temps réel des présences et absences avec alertes automatiques.</p>
+          <a href="#" class="feature-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card" data-delay="100">
+          <div class="feature-icon-wrap">
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <h3>Planning intelligent</h3>
+          <p>Gestion des emplois du temps avec détection automatique des conflits horaires.</p>
+          <a href="#" class="feature-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card" data-delay="200">
+          <div class="feature-icon-wrap">
+            <i class="fas fa-chart-bar"></i>
+          </div>
+          <h3>Évaluations & rapports</h3>
+          <p>Grilles d'évaluation paramétrables, scores automatiques et export PDF.</p>
+          <a href="#" class="feature-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card" data-delay="300">
+          <div class="feature-icon-wrap">
+            <i class="fas fa-tachometer-alt"></i>
+          </div>
+          <h3>Tableau de bord</h3>
+          <p>Visualisation des KPIs et statistiques clés en temps réel.</p>
+          <a href="#" class="feature-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card" data-delay="400">
+          <div class="feature-icon-wrap">
+            <i class="fas fa-bell"></i>
+          </div>
+          <h3>Notifications</h3>
+          <p>Alertes automatiques en cas d'anomalie, d'absence ou de conflit.</p>
+          <a href="#" class="feature-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="feature-card" data-delay="500">
+          <div class="feature-icon-wrap">
+            <i class="fas fa-book"></i>
+          </div>
+          <h3>Gestion des modules</h3>
+          <p>Suivi complet des formations dispensées et de l'avancement pédagogique.</p>
+          <a href="#" class="feature-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ABOUT STRIP -->
+<section class="about-strip">
+  <div class="about-strip-content">
+    <span class="section-label">
+      <i class="fas fa-university"></i> Notre institution
+    </span>
+    <h2>L'excellence académique<br/>au service du numérique</h2>
+    <p>L'ISI forme depuis plus de 10 ans les talents de l'informatique et du numérique au Sénégal et en Afrique de l'Ouest.</p>
+    <ul class="about-list">
+      <li><i class="fas fa-check-circle"></i> Formateurs certifiés et expérimentés</li>
+      <li><i class="fas fa-check-circle"></i> Programmes alignés sur les besoins du marché</li>
+      <li><i class="fas fa-check-circle"></i> Suivi personnalisé de chaque apprenant</li>
+      <li><i class="fas fa-check-circle"></i> Partenariats avec des entreprises locales</li>
+    </ul>
+    <a href="apropos.html" class="btn-primary">
+      <i class="fas fa-arrow-right"></i> En savoir plus
+    </a>
+  </div>
+  <div class="about-strip-img">
+    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&q=90" alt="Formation ISI"/>
+  </div>
+</section>
+
+  <!-- FORMATIONS APERCU -->
+  <section class="formations-apercu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label"><i class="fas fa-graduation-cap"></i> Formations</span>
+        <h2>Nos programmes phares</h2>
+        <p>Des formations conçues pour répondre aux exigences du marché du travail numérique.</p>
+      </div>
+      <div class="apercu-grid">
+        <div class="apercu-card">
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80" alt="Développement Web"/>
+          <div class="apercu-overlay">
+            <span class="apercu-tag">Développement</span>
+            <h3>Développement Web Full Stack</h3>
+            <p>HTML, CSS, JS, PHP, Laravel</p>
+            <a href="formations.html" class="apercu-btn">Voir la formation</a>
+          </div>
+        </div>
+        <div class="apercu-card">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Data Science"/>
+          <div class="apercu-overlay">
+            <span class="apercu-tag">Intelligence Artificielle</span>
+            <h3>Data Science & Machine Learning</h3>
+            <p>Python, TensorFlow, analyse de données</p>
+            <a href="formations.html" class="apercu-btn">Voir la formation</a>
+          </div>
+        </div>
+        <div class="apercu-card">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80" alt="Réseaux"/>
+          <div class="apercu-overlay">
+            <span class="apercu-tag">Infrastructure</span>
+            <h3>Réseaux & Cybersécurité</h3>
+            <p>Cisco, Linux, sécurité des systèmes</p>
+            <a href="formations.html" class="apercu-btn">Voir la formation</a>
+          </div>
+        </div>
+      </div>
+      <div class="formations-cta">
+        <a href="formations.html" class="btn-outline-dark">
+          Voir toutes nos formations <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+          <span class="logo-text">ISI<em>Dakar</em></span>
+        </div>
+        <p>Système Intelligent de Suivi des Formateurs - Projet académique ISI 2026.</p>
+        <div class="footer-social">
+          <a href="https://github.com/Mayiimuna/systeme_suivi_formateurs" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+          <li><a href="apropos.html"><i class="fas fa-chevron-right"></i> À propos</a></li>
+          <li><a href="formations.html"><i class="fas fa-chevron-right"></i> Formations</a></li>
+          <li><a href="formateurs.html"><i class="fas fa-chevron-right"></i> Formateurs</a></li>
+          <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Dakar, Sénégal</li>
+          <li><i class="fas fa-envelope"></i> contact@isi-dakar.sn</li>
+          <li><i class="fas fa-phone"></i> +221 33 XXX XX XX</li>
+          <li><i class="fas fa-clock"></i> Lun - Ven : 8h - 18h</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ISI Dakar - Module Atelier Créatif - M. Samba B. Kane</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
