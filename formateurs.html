@@ -1,1 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formateurs - ISI Dakar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
 
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+      <span class="logo-text">ISI<em>Dakar</em></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="formations.html">Formations</a></li>
+      <li><a href="formateurs.html" class="active">Formateurs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="#" class="btn-nav">
+      <i class="fas fa-sign-in-alt"></i> Accéder à l'application
+    </a>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <img src="https://images.unsplash.com/photo-1544531585-9847b68c8c86?w=1600&q=80" alt="Formateurs ISI" class="hero-bg"/>
+    <div class="page-hero-content">
+      <span class="section-label"><i class="fas fa-chalkboard-teacher"></i> Notre équipe pédagogique</span>
+      <h1>Nos <span class="highlight">Formateurs</span></h1>
+      <p>Des experts passionnés, certifiés et dévoués à votre réussite académique et professionnelle.</p>
+    </div>
+  </section>
+
+  <!-- FORMATEURS GRID -->
+  <section class="formateurs-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label"><i class="fas fa-users"></i> L'équipe</span>
+        <h2>Rencontrez nos experts</h2>
+        <p>Chaque formateur apporte une expertise unique et une expérience professionnelle solide.</p>
+      </div>
+      <div class="formateurs-grid-pro">
+
+        <div class="formateur-card-pro fade-in">
+          <div class="formateur-img">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="Samba B. Kane"/>
+            <div class="formateur-social">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="formateur-body">
+            <div class="formateur-header">
+              <div>
+                <h3>Babacar Ba</h3>
+                <span class="formateur-titre">Responsable pédagogique</span>
+              </div>
+              <div class="formateur-exp">
+                <strong>10+</strong>
+                <span>ans</span>
+              </div>
+            </div>
+            <p>Expert en gestion de projets numériques et en pédagogie active. Responsable du module Atelier Créatif et référent GitHub de l'ISI.</p>
+            <div class="formateur-skills">
+              <span><i class="fas fa-code-branch"></i> Gestion de projet</span>
+              <span><i class="fab fa-github"></i> GitHub</span>
+              <span><i class="fas fa-tasks"></i> Agile/Scrum</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="formateur-card-pro fade-in">
+          <div class="formateur-img">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="Amadou Diallo"/>
+            <div class="formateur-social">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="formateur-body">
+            <div class="formateur-header">
+              <div>
+                <h3>Amadou Diallo</h3>
+                <span class="formateur-titre">Développement Web</span>
+              </div>
+              <div class="formateur-exp">
+                <strong>8+</strong>
+                <span>ans</span>
+              </div>
+            </div>
+            <p>Développeur full-stack spécialisé en PHP et Laravel. Passionné par les architectures MVC et les bonnes pratiques de développement.</p>
+            <div class="formateur-skills">
+              <span><i class="fab fa-php"></i> PHP/Laravel</span>
+              <span><i class="fab fa-js"></i> JavaScript</span>
+              <span><i class="fas fa-database"></i> MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="formateur-card-pro fade-in">
+          <div class="formateur-img">
+            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80" alt="Fatou Ndiaye"/>
+            <div class="formateur-social">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="formateur-body">
+            <div class="formateur-header">
+              <div>
+                <h3>Fatou Ndiaye</h3>
+                <span class="formateur-titre">Bases de données & SI</span>
+              </div>
+              <div class="formateur-exp">
+                <strong>7+</strong>
+                <span>ans</span>
+              </div>
+            </div>
+            <p>Experte en administration de bases de données et conception de systèmes d'information. Certifiée Oracle Database.</p>
+            <div class="formateur-skills">
+              <span><i class="fas fa-database"></i> MySQL</span>
+              <span><i class="fas fa-project-diagram"></i> MCD/MLD</span>
+              <span><i class="fas fa-server"></i> PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="formateur-card-pro fade-in">
+          <div class="formateur-img">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80" alt="Moussa Sarr"/>
+            <div class="formateur-social">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="formateur-body">
+            <div class="formateur-header">
+              <div>
+                <h3>Moussa Sarr</h3>
+                <span class="formateur-titre">Réseaux & Cybersécurité</span>
+              </div>
+              <div class="formateur-exp">
+                <strong>9+</strong>
+                <span>ans</span>
+              </div>
+            </div>
+            <p>Ingénieur réseau certifié CISCO avec une expertise reconnue en sécurisation des systèmes et infrastructures d'entreprise.</p>
+            <div class="formateur-skills">
+              <span><i class="fas fa-network-wired"></i> Cisco</span>
+              <span><i class="fab fa-linux"></i> Linux</span>
+              <span><i class="fas fa-shield-alt"></i> Sécurité</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="formateur-card-pro fade-in">
+          <div class="formateur-img">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80" alt="Aissatou Barry"/>
+            <div class="formateur-social">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="formateur-body">
+            <div class="formateur-header">
+              <div>
+                <h3>Aissatou Barry</h3>
+                <span class="formateur-titre">Intelligence Artificielle</span>
+              </div>
+              <div class="formateur-exp">
+                <strong>6+</strong>
+                <span>ans</span>
+              </div>
+            </div>
+            <p>Docteure en informatique, spécialisée en machine learning et data science. Auteure de plusieurs publications académiques.</p>
+            <div class="formateur-skills">
+              <span><i class="fab fa-python"></i> Python</span>
+              <span><i class="fas fa-brain"></i> Machine Learning</span>
+              <span><i class="fas fa-chart-line"></i> Data Science</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="formateur-card-pro fade-in">
+          <div class="formateur-img">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80" alt="Omar Thiaw"/>
+            <div class="formateur-social">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="formateur-body">
+            <div class="formateur-header">
+              <div>
+                <h3>Omar Thiaw</h3>
+                <span class="formateur-titre">UI/UX Design & Mobile</span>
+              </div>
+              <div class="formateur-exp">
+                <strong>5+</strong>
+                <span>ans</span>
+              </div>
+            </div>
+            <p>Designer et développeur mobile avec une passion pour les interfaces modernes. Expert Figma et React Native.</p>
+            <div class="formateur-skills">
+              <span><i class="fab fa-figma"></i> Figma</span>
+              <span><i class="fab fa-react"></i> React Native</span>
+              <span><i class="fas fa-mobile-alt"></i> UI/UX</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- REJOINDRE -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <i class="fas fa-chalkboard-teacher cta-icon"></i>
+      <h2>Vous êtes formateur ?</h2>
+      <p>Rejoignez notre équipe pédagogique et partagez votre expertise avec la prochaine génération de talents numériques.</p>
+      <a href="contact.html" class="btn-primary">
+        <i class="fas fa-paper-plane"></i> Postuler maintenant
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+          <span class="logo-text">ISI<em>Dakar</em></span>
+        </div>
+        <p>Système Intelligent de Suivi des Formateurs - Projet académique ISI 2026.</p>
+        <div class="footer-social">
+          <a href="https://github.com/Mayiimuna/systeme_suivi_formateurs" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+          <li><a href="apropos.html"><i class="fas fa-chevron-right"></i> À propos</a></li>
+          <li><a href="formations.html"><i class="fas fa-chevron-right"></i> Formations</a></li>
+          <li><a href="formateurs.html"><i class="fas fa-chevron-right"></i> Formateurs</a></li>
+          <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Dakar, Sénégal</li>
+          <li><i class="fas fa-envelope"></i> contact@isi-dakar.sn</li>
+          <li><i class="fas fa-phone"></i> +221 33 XXX XX XX</li>
+          <li><i class="fas fa-clock"></i> Lun - Ven : 8h - 18h</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ISI Dakar - Module Atelier Créatif - M. Samba B. Kane</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
