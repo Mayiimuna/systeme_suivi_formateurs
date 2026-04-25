@@ -98,7 +98,7 @@ git push
 
 - [x] Cahier des charges
 - [x] Repository GitHub structuré
-- [ ] Planification Trello
+- [x] Planification Trello
 - [ ] Site vitrine fonctionnel
 - [ ] Document d'organisation d'équipe
 - [ ] Synthèse réflexive
