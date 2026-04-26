@@ -1,1 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formations - ISI Dakar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
 
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+      <span class="logo-text">ISI<em>Dakar</em></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="formations.html" class="active">Formations</a></li>
+      <li><a href="formateurs.html">Formateurs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="#" class="btn-nav">
+      <i class="fas fa-sign-in-alt"></i> Accéder à l'application
+    </a>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600&q=80" alt="Formations ISI" class="hero-bg"/>
+    <div class="page-hero-content">
+      <span class="section-label"><i class="fas fa-graduation-cap"></i> Catalogue</span>
+      <h1>Nos <span class="highlight">Formations</span></h1>
+      <p>Des programmes d'excellence, conçus par des experts et alignés sur les besoins du marché numérique.</p>
+    </div>
+  </section>
+
+  <!-- FORMATIONS GRID -->
+  <section class="formations-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label"><i class="fas fa-list"></i> Catalogue complet</span>
+        <h2>Choisissez votre parcours</h2>
+        <p>Six programmes de formation pour construire votre avenir dans le numérique.</p>
+      </div>
+      <div class="formations-grid-pro">
+
+        <div class="formation-card-pro fade-in">
+          <div class="formation-img">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&q=80" alt="Développement Web"/>
+            <span class="formation-tag">Développement</span>
+          </div>
+          <div class="formation-body">
+            <h3>Développement Web Full Stack</h3>
+            <p>Maîtrisez l'ensemble de la chaîne de développement web, du front-end au back-end, avec les technologies les plus demandées.</p>
+            <div class="formation-meta">
+              <span><i class="fas fa-clock"></i> 6 mois</span>
+              <span><i class="fas fa-signal"></i> Intermédiaire</span>
+              <span><i class="fas fa-users"></i> 25 places</span>
+            </div>
+            <div class="formation-techs">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>Laravel</span>
+            </div>
+            <a href="contact.html" class="btn-formation-pro">
+              S'inscrire <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="formation-card-pro fade-in">
+          <div class="formation-img">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80" alt="Réseaux"/>
+            <span class="formation-tag">Infrastructure</span>
+          </div>
+          <div class="formation-body">
+            <h3>Réseaux & Cybersécurité</h3>
+            <p>Administration réseau, sécurisation des systèmes et infrastructure IT : devenez un expert en sécurité informatique.</p>
+            <div class="formation-meta">
+              <span><i class="fas fa-clock"></i> 1 an</span>
+              <span><i class="fas fa-signal"></i> Avancé</span>
+              <span><i class="fas fa-users"></i> 20 places</span>
+            </div>
+            <div class="formation-techs">
+              <span>Cisco</span>
+              <span>Linux</span>
+              <span>Firewall</span>
+              <span>VPN</span>
+            </div>
+            <a href="contact.html" class="btn-formation-pro">
+              S'inscrire <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="formation-card-pro fade-in">
+          <div class="formation-img">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Data Science"/>
+            <span class="formation-tag">Intelligence Artificielle</span>
+          </div>
+          <div class="formation-body">
+            <h3>Data Science & Machine Learning</h3>
+            <p>Analyse de données, modèles prédictifs et intelligence artificielle avec Python et les frameworks modernes.</p>
+            <div class="formation-meta">
+              <span><i class="fas fa-clock"></i> 8 mois</span>
+              <span><i class="fas fa-signal"></i> Avancé</span>
+              <span><i class="fas fa-users"></i> 20 places</span>
+            </div>
+            <div class="formation-techs">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>Pandas</span>
+              <span>SQL</span>
+            </div>
+            <a href="contact.html" class="btn-formation-pro">
+              S'inscrire <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="formation-card-pro fade-in">
+          <div class="formation-img">
+            <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?w=600&q=80" alt="Gestion"/>
+            <span class="formation-tag">Gestion</span>
+          </div>
+          <div class="formation-body">
+            <h3>Informatique Appliquée à la Gestion</h3>
+            <p>Allier les compétences informatiques à la gestion d'entreprise pour devenir un professionnel polyvalent.</p>
+            <div class="formation-meta">
+              <span><i class="fas fa-clock"></i> 2 ans</span>
+              <span><i class="fas fa-signal"></i> Tous niveaux</span>
+              <span><i class="fas fa-users"></i> 30 places</span>
+            </div>
+            <div class="formation-techs">
+              <span>Java</span>
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>ERP</span>
+            </div>
+            <a href="contact.html" class="btn-formation-pro">
+              S'inscrire <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="formation-card-pro fade-in">
+          <div class="formation-img">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" alt="Mobile"/>
+            <span class="formation-tag">Mobile</span>
+          </div>
+          <div class="formation-body">
+            <h3>Développement Mobile</h3>
+            <p>Créez des applications mobiles performantes pour Android et iOS avec les frameworks modernes.</p>
+            <div class="formation-meta">
+              <span><i class="fas fa-clock"></i> 4 mois</span>
+              <span><i class="fas fa-signal"></i> Intermédiaire</span>
+              <span><i class="fas fa-users"></i> 20 places</span>
+            </div>
+            <div class="formation-techs">
+              <span>React Native</span>
+              <span>Android</span>
+              <span>iOS</span>
+              <span>Flutter</span>
+            </div>
+            <a href="contact.html" class="btn-formation-pro">
+              S'inscrire <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="formation-card-pro fade-in">
+          <div class="formation-img">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80" alt="UI UX Design"/>
+            <span class="formation-tag">Design</span>
+          </div>
+          <div class="formation-body">
+            <h3>UI/UX Design</h3>
+            <p>Concevez des interfaces utilisateur modernes, intuitives et esthétiques avec les outils professionnels du marché.</p>
+            <div class="formation-meta">
+              <span><i class="fas fa-clock"></i> 3 mois</span>
+              <span><i class="fas fa-signal"></i> Débutant</span>
+              <span><i class="fas fa-users"></i> 25 places</span>
+            </div>
+            <div class="formation-techs">
+              <span>Figma</span>
+              <span>Adobe XD</span>
+              <span>Prototypage</span>
+            </div>
+            <a href="contact.html" class="btn-formation-pro">
+              S'inscrire <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA INSCRIPTION -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <i class="fas fa-paper-plane cta-icon"></i>
+      <h2>Prêt à nous rejoindre ?</h2>
+      <p>Contactez-nous pour plus d'informations sur nos formations et les modalités d'inscription.</p>
+      <a href="contact.html" class="btn-primary">
+        <i class="fas fa-envelope"></i> Nous contacter
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+          <span class="logo-text">ISI<em>Dakar</em></span>
+        </div>
+        <p>Système Intelligent de Suivi des Formateurs - Projet académique ISI 2026.</p>
+        <div class="footer-social">
+          <a href="https://github.com/Mayiimuna/systeme_suivi_formateurs" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+          <li><a href="apropos.html"><i class="fas fa-chevron-right"></i> À propos</a></li>
+          <li><a href="formations.html"><i class="fas fa-chevron-right"></i> Formations</a></li>
+          <li><a href="formateurs.html"><i class="fas fa-chevron-right"></i> Formateurs</a></li>
+          <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Dakar, Sénégal</li>
+          <li><i class="fas fa-envelope"></i> contact@isi-dakar.sn</li>
+          <li><i class="fas fa-phone"></i> +221 33 XXX XX XX</li>
+          <li><i class="fas fa-clock"></i> Lun - Ven : 8h - 18h</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ISI Dakar - Module Atelier Créatif - M. Samba B. Kane</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
